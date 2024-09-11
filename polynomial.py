@@ -16,7 +16,7 @@ class Int:
         return str(self.i)
     
     def evaluate(self, x):
-        return x
+        return self.i
 
 class Add:
     def __init__(self, p1, p2):
